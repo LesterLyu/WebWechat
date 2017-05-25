@@ -40,7 +40,7 @@ public class Wechat {
 	}
 	
 	public void login(){
-		String uuid = auth.getUuid();
+		String uuid = auth.getQRuuid();
 		new Thread(new Runnable(){
 			 @Override
 			 public void run(){
